@@ -8,6 +8,8 @@ body {
     font-family: 'Bellota Text';
     color: #001850;
     text-align: center;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .homelogo {
@@ -101,19 +103,20 @@ a {
 
  /*ABOUT ME HOVERABLE BUTTON*/
  .dropbtn {
-     background-color: #f8ebeb;
+    background-color: #f8ebeb; /*button*/
     color: #001850;
     padding: 16px;
     font-size: 16px;
     border: none;
   }
   
-  .dropdown {
+  .dropdown { /*button outline*/
     position: relative;
     display: inline-block;
   }
   
-  .dropdown-content {
+  .dropdown-content {/*dropdown*/
+    background-color: #e0e0e0;
     display: none;
     position: absolute;
     min-width: 160px;
@@ -127,8 +130,15 @@ a {
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #a9a9a9;}
+  .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
   
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
   
-  .dropdown:hover .dropbtn {background-color: #a9a9a9;}
+  .dropdown:hover .dropbtn {
+      background-color: #e0e0e0;
+    }
+  /*END OF HOVERABLE DROP DOWN*/
